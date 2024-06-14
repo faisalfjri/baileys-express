@@ -1,0 +1,29 @@
+{
+  "name": "baileys-express",
+  "version": "1.0.0",
+  "description": "Implementation example of Baileys with Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisalfjri/baileys-express.git"
+  },
+  "keywords": [
+    "baileys",
+    "express"
+  ],
+  "author": "Faisal Fajri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faisalfjri/baileys-express/issues"
+  },
+  "homepage": "https://github.com/faisalfjri/baileys-express#readme",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "express": "^4.19.2",
+    "pino": "^9.2.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
